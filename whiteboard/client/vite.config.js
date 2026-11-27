@@ -9,4 +9,7 @@ export default defineConfig({
     apply: 'serve',
   },
   plugins: [tailwindcss(),react()],
+  server: {
+    port: 5173,
+  },
 })
